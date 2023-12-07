@@ -9,6 +9,7 @@ const App = () => {
     <BookContextProvider>
       <Navbar />
       <BookList />
+      <BookForm />
     </BookContextProvider>
   );
 };

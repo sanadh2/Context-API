@@ -11,7 +11,7 @@ const BookContextProvider = ({ children }) => {
     { title: "Can't hurt me", author: "David Goggins", id: 3 },
   ]);
 
-  const addBook = () => {
+  const addBook = (title, author) => {
     setBooks([...books, { title, author, id: uuidv4() }]);
   };
   const removeBook = (id) => {
